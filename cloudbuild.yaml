@@ -10,6 +10,7 @@ steps:
       - --trigger-http
       - --runtime=python311
       - --allow-unauthenticated
+      - --gen2
 
 options:
   logging: CLOUD_LOGGING_ONLY
